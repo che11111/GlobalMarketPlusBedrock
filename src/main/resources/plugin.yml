@@ -1,0 +1,25 @@
+name: GlobalMarketPlusBedrock
+version: 1.0.0
+main: dev.che1s.globalmarketplusbedrock.GlobalMarketPlusBedrock
+authors: [che1s]
+website: https://github.com/che11111/GlobalMarketPlusBedrock
+api-version: '1.16'
+folia-supported: true
+description: Bedrock Edition market form addon for GlobalMarketPlus.
+depend:
+  - GlobalMarketPlus
+  - floodgate
+  - PlaceholderAPI
+softdepend:
+  - Geyser-Spigot
+commands:
+  globalmarketplusbedrock:
+    description: Open the Bedrock market form.
+    aliases: [gmpbe, bemarket]
+permissions:
+  globalmarketplusbedrock.use:
+    description: Allow using the Bedrock market form.
+    default: true
+  globalmarketplusbedrock.admin:
+    description: Reload settings and receive/check release updates.
+    default: op

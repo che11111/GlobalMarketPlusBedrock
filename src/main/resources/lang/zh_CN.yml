@@ -1,0 +1,430 @@
+# GlobalMarketPlusBedrock - zh_CN
+errors:
+  mailbox-not-loaded: 邮箱尚未加载
+  mail-owner-mismatch: 邮件归属不匹配
+  market-config: GMP 市场配置不可用
+  mode-name: GMP 交易模式名称无效
+  bulk-open: GMP 批量上架界面未能打开
+  description-changed: 商店简介已变化，请刷新后重新编辑
+  single-line: 请输入 1–256 个字符的单行文字
+  store-closed: 该商店已打烊
+  invalid-quote: 商品报价无效
+  quote-changed: 报价或整单数量已变化，请刷新后重新确认
+  merchant-not-loaded: 商家数据尚未加载
+  merchant-missing: 商家不存在或尚未加载
+  merchant-not-found: 找不到该商家
+  market-unavailable: 市场服务不可用
+  item-removed: 商品已下架
+  item-expired: 商品已过期
+  mail-not-loaded: 邮箱数据尚未加载
+  mail-removed: 邮件已不存在
+  wrong-store: 商品不在该商店中
+  item-hidden: 商品已隐藏
+  currency-denied: 无权使用该货币
+  auction-use-bid: 拍卖商品请使用竞拍
+  mode-closed: 交易方式已关闭
+  insufficient-stock: 库存不足，请重新选择数量
+  auction-unavailable: 拍卖不可用
+  not-container: 该物品不是可预览的容器
+  command-dispatch: GMP 命令未能派发
+  gmp-config: GMP 配置不可用
+  module-disabled: 该 GMP 功能模块已关闭
+  gmp-permission: 没有访问该功能的 GMP 权限
+  world-disabled: 当前世界已禁用 GMP
+  gmp-permission-config: 'GMP 权限配置不可用: '
+  currency-config: GMP 货币权限配置不可用
+  search-category: 无效或无权使用的搜索分类
+labels:
+  mailbox: '邮箱: '
+  show-line: '
+
+    显示: '
+  show: '显示: '
+  status: '
+
+    状态: '
+  description: '
+
+    描述: '
+  item: '物品: '
+  product: '商品: '
+  amount: '
+
+    数量: '
+  start-price: '起拍价: '
+  unit-price: '每件单价: '
+  lot-price: '整单价格: '
+  merchant: '商家: '
+  store: '
+
+    商店: '
+  balance: '
+
+    余额: '
+  introduction: '
+
+    简介:
+
+    '
+  category: '分类: '
+  currency: '
+
+    货币: '
+  total: '
+
+    报价合计: '
+  highest-bid: '当前最高价: '
+  your-bid: '
+
+    准备出价: '
+  material: '
+
+    材质: '
+mail:
+  picked-suffix: ' [已领取]'
+  expired-suffix: ' [已过期]'
+  pickup-all: 全部领取（整个邮箱）
+  pickup-all-title: 全部领取
+  pickup-all-confirm: 领取整个邮箱中可领取的邮件；背包容量及权限由 GMP 检查。
+  delete-all: 全部删除（整个邮箱）
+  delete-all-title: 永久删除全部邮件
+  delete-all-confirm: 此操作作用于整个邮箱，包含当前筛选未显示的邮件。未领取物品也会删除，无法撤销。
+  picked: 已领取
+  ready: 待领取
+  delete: 永久删除该邮件
+  delete-title: 确认删除邮件
+  delete-confirm: 未领取物品也会永久删除，无法撤销。
+  source-transaction: 交易
+  source-gift: 礼物
+  source-expire: 过期退回
+  source-remove: 下架退回
+  source-forced-remove: 强制下架
+  source-returned: 退回
+  source-migrate: 迁移
+  source-other: 其他
+profile:
+  mail-sort: 邮件排序
+  categories: 分类设置
+  title: 商家档案
+  rename: 修改商店名字
+  store-name: 商店名字
+  store-name-label: 输入新的商店名字
+  description-edit: 编辑商店简介
+  item-sort: 商品排序
+  item-category: 商品分类
+  refresh: 刷新商家资料缓存
+  my-store: 浏览我的商店
+  description-help: 点击某行修改或删除
+  description-add: 追加一行
+  description-add-title: 追加简介
+  description-add-label: 输入新的一行
+  description-line-prefix: '简介第 '
+  description-line-suffix: ' 行'
+  description-set-title: 修改简介
+  description-set-label: 输入新的内容
+  description-delete-title: 删除简介行
+  category-help: 分类会应用到市场、商店和邮箱列表
+  category-reset: 恢复默认分类
+  sort-help: 选择排序方式
+  sort-reset: 恢复默认排序
+common:
+  expired: 已过期
+  none: 无
+  all: 全部
+  unknown: 未知
+  confirm: 确认
+  cancel: 取消
+  refresh: 刷新
+  back: 返回
+  'on': 开
+  'off': 关
+  edit: 修改
+  delete: 删除
+  selected-suffix: ' [已选]'
+  anonymous: 匿名商家
+  unknown-item: 未知物品
+  permanent: 永久
+  processing: 操作已提交
+  processing-help: 请查看 GMP 聊天栏结果。点击刷新查看最新数据。
+container:
+  view: 查看容器内物品
+  title: '容器内容: '
+  readonly-prefix: '只读预览 · '
+  readonly-suffix: ' 个已占用槽位'
+  slot: '槽位 '
+  inner: 查看内层容器
+logs:
+  plugin-detected: '已检测到 {plugin} {version}。'
+  papi-failed: PlaceholderAPI 文本解析失败
+  form-action-failed: 市场表单操作失败
+  floodgate-failed: Floodgate API 调用失败
+  balance-failed: 读取余额占位符失败
+  item-name-failed: 物品名称读取失败
+  item-meta-failed: 物品元数据读取失败
+  item-options-failed: 读取商品选项失败
+  mail-source-failed: 读取邮件来源失败
+  command-registered: '命令 /globalmarketplusbedrock 已注册 (别名: gmpbe, bemarket)'
+  missing-command: 命令 /globalmarketplusbedrock 注册失败 (getCommand 返回 null)，请完整重启服务器。
+  enabled-prefix: 'GlobalMarketPlusBedrock 已启用 (GlobalMarketPlus: '
+  bridge-failed: 适配 GMP 菜单命令失败
+  icon-map-failed: '加载原版物品图标映射失败: '
+  icon-invalid-prefix: '无效图标配置 '
+  icon-invalid-suffix: ，该项将仅显示文本。
+  language-unknown: 未知语言 {language}，回退到 zh_CN。
+  language-read-failed: 无法读取语言文件 {file}，使用内置翻译：{error}
+  language-save-failed: 无法保存语言文件 {file}，使用内置翻译：{error}
+  enabled: GlobalMarketPlusBedrock {version} 已启用，语言：{language}。
+  disabled: GlobalMarketPlusBedrock 已停用。
+  reload-failed: 无法重新加载配置或语言文件。
+  update-available: 发现新版 {latest}（当前 {current}）：{url}
+  update-failed: 检查更新失败：{error}
+  metrics-failed: 无法启动 bStats：{error}
+  player-task-failed: 无法调度玩家实体任务。
+  global-task-failed: 无法调度全局任务。
+listing:
+  bulk-sell-native: 批量出售（GMP 原生界面）
+  bulk-buy-native: 批量收购（GMP 原生界面）
+  sell-title: 上架出售
+  purchase-title: 发起收购
+  auction-title: 发起拍卖
+  rules: '
+
+    容器拆分、税率、上架限制由 GMP 配置决定。'
+  start-price: 起拍价
+  price-label: 整单价格 / 零售单价（取决于下方模式）
+  amount: 上架数量
+  mode: 交易模式
+  wholesale: 整售（价格为整单价）
+  retail: 零售（价格为每件单价）
+  confirm-title: 确认上架
+  bulk-buy: 批量收购
+  bulk-sell: 批量出售
+  bulk-price-label: 输入批量上架价格，稍后在 GMP 原生界面选择等价或均价
+  bulk-open-title: 打开 GMP 批量上架界面
+  bulk-confirm: '继续后打开 GMP 的原生箱式界面。
+
+    放入需要上架的物品，再点击等价或均价按钮。
+
+    税费、扣物品和失败返还由 GMP 处理。'
+options:
+  hide-items: 隐藏商品
+  hide-name: 隐藏商家名
+  store-closed: 商店打烊
+  mailbox-locked: 邮箱锁定
+  never-expire: 永不过期
+  unlimited: 无限商品
+stores:
+  title: 全部商店
+  help: 点击进入商店
+  owner-only: 仅店主可见
+  browse: 浏览商店全部商品
+  edit-profile: 编辑商家档案
+time:
+  days: 天
+  hours: 小时
+  minutes: 分钟
+market:
+  selling: 出售
+  purchasing: 收购
+  bidding: 拍卖
+  sort: 排序设置
+  search: 搜索 / 筛选
+  search-clear: 清除搜索条件
+  advanced: 商品高级设置
+  similar: 查找相似商品
+  retail-amount: 零售数量
+  retail-amount-label: 输入正整数数量
+  confirm-title: 确认交易
+  tax-note: '
+
+    税费与最终结算以 GMP 配置及聊天栏结果为准。'
+  set-wholesale: 设置整单价格 / -1 禁用整售
+  set-retail: 设置零售单价 / -1 禁用零售
+  remove-title: 确认下架
+  remove-help: 商品将由 GMP 处理下架、退回及退税。
+  retail-price-title: 设置零售单价
+  wholesale-price-title: 设置整单价格
+  price-label: 输入价格，-1 禁用该交易方式
+search:
+  help: '点击条件进行修改；留空表示不限。修改后点击“开始搜索”。'
+  start: '开始搜索'
+  title: 搜索商品
+  material: 材质 ID（可留空）
+  seller: 卖家名字包含
+  name: 物品名包含
+  lore: 描述包含
+  min: 最低报价
+  max: 最高报价
+  currency: 货币标识（可留空）
+  category: 分类标识（可留空）
+  type: 商品类型
+auction:
+  bid-title: 竞拍报价
+  enter-price: 输入金额
+  price-label: 输入出价金额
+  confirm-bid: 确认出价
+  early-confirm: 提前成交
+  early-title: 确认拍卖成交
+  early-help: 将按 GMP 的当前最高出价及成交规则结算。
+messages:
+  player-only: 该命令只能由玩家执行。
+  permission-fallback: 你没有权限。
+  prefix: '&b全球&4&l交易&6&l市场 &f&l>>> '
+  no-permission: '{prefix}&c你没有权限使用此功能。'
+  bedrock-only: '{prefix}&c此功能仅限基岩版玩家使用。'
+  action-sent: '{prefix}&a操作已提交，请留意聊天栏结果。'
+  invalid-number: '{prefix}&c输入的不是有效数字。'
+  listing-sent: '{prefix}&a上架操作已提交，请留意聊天栏结果。'
+  listing-no-item: '{prefix}&c你手上没有可上架的物品。'
+  listing-item-changed: '{prefix}&c手持物品或快捷栏位置已改变，请重新选择上架商品。'
+  data-error: '{prefix}&c市场数据读取失败，请稍后重试。管理员可查看服务器日志。'
+  form-failed: '{prefix}&c表单发送失败，请重新打开。'
+  update-available: '{prefix}&e发现新版本 {latest}（当前 {current}）：{url}'
+  update-checking: '{prefix}&a正在检查 GitHub Releases，请稍候。'
+  update-no-new: '{prefix}&a没有检测到更新的正式版；仓库可能还没有 Release。'
+  update-failed: '{prefix}&c更新检查失败，请稍后重试。'
+  update-disabled: '{prefix}&c更新检查已在配置中关闭。'
+  update-wait: '{prefix}&e请稍后再检查更新。'
+  reload-success: '{prefix}&a配置与语言文件已重新加载。'
+  reload-failed: '{prefix}&c重新加载失败，详情见控制台。'
+  admin-help: '{prefix}&e用法：/gmpbe [reload|update]'
+form:
+  common:
+    confirm: 确认
+    cancel: 取消
+    back: 返回
+    refresh: 刷新
+    processing: 操作已提交
+    processing-content: 请查看 GMP 聊天栏结果。点击刷新查看最新数据。
+  main:
+    button-all-items: 全部商品
+    title: 全球市场
+    content: '余额: {balance}
+
+      我的商品: {merchandises} 件
+
+      邮箱: {mails} 封
+
+
+      请选择要进行的操作'
+    button-market: 市场商品 (出售)
+    button-purchase: 收购市场
+    button-auction: 拍卖市场
+    button-my-merchandises: 我的商品
+    button-my-mailbox: 我的邮箱
+    button-my-store: 我的商店
+    button-list-item: 上架商品
+  list:
+    market-title: 市场商品 (出售)
+    purchase-title: 收购市场
+    auction-title: 拍卖市场
+    my-title: 我的商品
+    mailbox-title: 我的邮箱
+    button-item: '{name} | {price}'
+    button-auction: '{name} | {bidding_price}'
+    button-my-item: '{name} | {price}'
+    button-mail: '{name} x{amount}'
+    empty: 当前没有可显示的商品
+    button-prev: 上一页
+    button-next: 下一页
+    button-back: 返回
+  detail:
+    title: 商品详情
+    content: '商品: {name}
+
+      类型: {type}
+
+      卖家: {seller}
+
+      批发价: {price}
+
+      零售价: {retail_price}
+
+      数量: {amount}
+
+      剩余时间: {expire}'
+    content-auction: '商品: {name}
+
+      类型: {type}
+
+      卖家: {seller}
+
+      起拍价: {price}
+
+      当前拍价: {bidding_price}
+
+      最高出价人: {top_bidder}
+
+      数量: {amount}
+
+      剩余时间: {expire}'
+    button-buy-wholesale: 整单购买
+    button-buy-retail: 零售购买
+    button-sell-wholesale: 整单出售
+    button-sell-retail: 零售出售
+    button-bid: 出价竞拍
+    button-remove: 下架该商品
+    button-reprice: 更改价格
+    button-reprice-retail: 更改零售价
+    button-back: 返回
+  reprice:
+    title: 更改价格
+    content: 请输入价格，-1 禁用整售
+    retail-title: 更改零售价
+    retail-content: 请输入价格，-1 禁用零售
+  mail-detail:
+    title: 邮件详情
+    content: '物品: {name} x{amount}
+
+      来源: {source}
+
+      发送者: {sender}
+
+      剩余时间: {expire}'
+    button-pickup: 领取邮件
+    button-back: 返回
+  store:
+    title: 我的商店
+    content: '商店名: {store_name}
+
+      商店简介:
+
+      {store_description}
+
+      余额: {balance}
+
+      商品数: {merchandises}
+
+      总出售: {sold}
+
+      总收购: {purchased}
+
+      总拍卖: {auction}'
+    button-back: 返回
+  listing:
+    title: 上架商品
+    content: 请选择上架类型
+    button-sell: 出售
+    button-purchase: 收购
+    button-auction: 拍卖
+    button-back: 返回
+    price-sell-title: 上架出售
+    price-sell-content: 请输入整单出售价格\n输入 0 取消
+    price-purchase-title: 发起收购
+    price-purchase-content: 请输入收购定金\n输入 0 取消
+    price-auction-title: 发起拍卖
+    price-auction-content: 请输入起拍价\n输入 0 取消
+  input:
+    buy-title: 零售购买
+    buy-content: 请输入零售购买数量\n输入 0 取消
+    sell-title: 零售出售
+    sell-content: 请输入零售出售数量\n输入 0 取消
+    bid-title: 出价竞拍
+    bid-content: 请输入出价金额\n输入 0 取消
+countdown:
+  bossbar: '&e&l请手持需要上架的商品'
+  actionbar: '&6倒计时 &e{second} &6秒 - 请手持需要上架的商品'
+
+navigation:
+  action: '操作（选择后点击提交）'
+  submit: '提交 / 保存'

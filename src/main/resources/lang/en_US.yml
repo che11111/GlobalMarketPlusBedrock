@@ -1,0 +1,431 @@
+# GlobalMarketPlusBedrock - en_US
+errors:
+  mailbox-not-loaded: Mailbox data is not loaded yet
+  mail-owner-mismatch: Mail owner does not match
+  market-config: GMP market configuration is unavailable
+  mode-name: Invalid GMP trading mode name
+  bulk-open: Could not open GMP bulk listing menu
+  description-changed: The store description changed. Refresh before editing again.
+  single-line: Enter a single line of 1–256 characters
+  store-closed: This store is closed
+  invalid-quote: Invalid merchandise quote
+  quote-changed: The quote or lot quantity changed. Refresh and confirm again.
+  merchant-not-loaded: Merchant data is not loaded yet
+  merchant-missing: Merchant does not exist or is not loaded
+  merchant-not-found: Merchant not found
+  market-unavailable: Market service is unavailable
+  item-removed: The merchandise was removed
+  item-expired: The merchandise has expired
+  mail-not-loaded: Mailbox data is not loaded yet
+  mail-removed: This mail no longer exists
+  wrong-store: The merchandise is not in this store
+  item-hidden: The merchandise is hidden
+  currency-denied: You cannot use this currency
+  auction-use-bid: Use bidding for auction merchandise
+  mode-closed: This trading mode was disabled
+  insufficient-stock: Insufficient stock. Choose the quantity again.
+  auction-unavailable: Auction is unavailable
+  not-container: This item is not a supported container
+  command-dispatch: Could not dispatch GMP command
+  gmp-config: GMP configuration is unavailable
+  module-disabled: This GMP module is disabled
+  gmp-permission: You do not have the GMP permission for this feature
+  world-disabled: GMP is disabled in this world
+  gmp-permission-config: 'GMP permission configuration is unavailable: '
+  currency-config: GMP currency permissions are unavailable
+  search-category: Invalid or unauthorized search category
+labels:
+  mailbox: 'Mailbox: '
+  show-line: '
+
+    Showing: '
+  show: 'Show: '
+  status: '
+
+    Status: '
+  description: '
+
+    Description: '
+  item: 'Item: '
+  product: 'Product: '
+  amount: '
+
+    Quantity: '
+  start-price: 'Starting bid: '
+  unit-price: 'Price per item: '
+  lot-price: 'Lot price: '
+  merchant: 'Merchant: '
+  store: '
+
+    Store: '
+  balance: '
+
+    Balance: '
+  introduction: '
+
+    Introduction:
+
+    '
+  category: 'Category: '
+  currency: '
+
+    Currency: '
+  total: '
+
+    Quoted total: '
+  highest-bid: 'Current highest bid: '
+  your-bid: '
+
+    Your bid: '
+  material: '
+
+    Material: '
+mail:
+  picked-suffix: ' [Collected]'
+  expired-suffix: ' [Expired]'
+  pickup-all: Collect all (entire mailbox)
+  pickup-all-title: Collect all mail
+  pickup-all-confirm: Collect all available mail in the entire mailbox. GMP checks inventory capacity and permissions.
+  delete-all: Delete all (entire mailbox)
+  delete-all-title: Permanently delete all mail
+  delete-all-confirm: This affects the entire mailbox, including mail hidden by the current filter. Uncollected
+    items will also be deleted. This cannot be undone.
+  picked: Collected
+  ready: Uncollected
+  delete: Permanently delete this mail
+  delete-title: Confirm mail deletion
+  delete-confirm: Uncollected items will also be permanently deleted. This cannot be undone.
+  source-transaction: Transaction
+  source-gift: Gift
+  source-expire: Expired listing return
+  source-remove: Removed listing return
+  source-forced-remove: Forced removal
+  source-returned: Returned
+  source-migrate: Migration
+  source-other: Other
+profile:
+  mail-sort: Mail sorting
+  categories: Categories
+  title: Merchant profile
+  rename: Change store name
+  store-name: Store name
+  store-name-label: Enter a new store name
+  description-edit: Edit store description
+  item-sort: Merchandise sorting
+  item-category: Merchandise category
+  refresh: Refresh merchant data cache
+  my-store: Browse my store
+  description-help: Select a line to edit or delete
+  description-add: Append a line
+  description-add-title: Append description
+  description-add-label: Enter a new line
+  description-line-prefix: 'Description line '
+  description-line-suffix: ''
+  description-set-title: Edit description
+  description-set-label: Enter new content
+  description-delete-title: Delete description line
+  category-help: Categories apply to market, store and mailbox lists
+  category-reset: Reset category
+  sort-help: Choose a sorting method
+  sort-reset: Reset sorting
+common:
+  expired: Expired
+  none: None
+  all: All
+  unknown: Unknown
+  confirm: Confirm
+  cancel: Cancel
+  refresh: Refresh
+  back: Back
+  'on': 'On'
+  'off': 'Off'
+  edit: Edit
+  delete: Delete
+  selected-suffix: ' [Selected]'
+  anonymous: Anonymous merchant
+  unknown-item: Unknown item
+  permanent: Permanent
+  processing: Operation submitted
+  processing-help: Check GMP's chat result. Refresh to see the latest data.
+container:
+  view: View container contents
+  title: 'Container contents: '
+  readonly-prefix: 'Read-only preview · '
+  readonly-suffix: ' occupied slots'
+  slot: 'Slot '
+  inner: View inner container
+logs:
+  plugin-detected: 'Detected {plugin} {version}.'
+  papi-failed: Could not resolve PlaceholderAPI text
+  form-action-failed: Market form action failed
+  floodgate-failed: Floodgate API call failed
+  balance-failed: Could not read balance placeholder
+  item-name-failed: Could not read item name
+  item-meta-failed: Could not read item metadata
+  item-options-failed: Could not read merchandise options
+  mail-source-failed: Could not read mail source
+  command-registered: 'Registered /globalmarketplusbedrock (aliases: gmpbe, bemarket)'
+  missing-command: Could not register /globalmarketplusbedrock. Fully restart the server.
+  enabled-prefix: 'GlobalMarketPlusBedrock enabled (GlobalMarketPlus: '
+  bridge-failed: Could not adapt GMP menu command
+  icon-map-failed: 'Could not load vanilla item icon mappings: '
+  icon-invalid-prefix: 'Invalid icon setting '
+  icon-invalid-suffix: ; this entry will use text only.
+  language-unknown: Unknown language {language}; falling back to zh_CN.
+  language-read-failed: 'Could not read language file {file}; using bundled translations: {error}'
+  language-save-failed: 'Could not save language file {file}; using bundled translations: {error}'
+  enabled: 'GlobalMarketPlusBedrock {version} enabled. Language: {language}.'
+  disabled: GlobalMarketPlusBedrock disabled.
+  reload-failed: Could not reload configuration or language files.
+  update-available: 'Update {latest} available (installed: {current}): {url}'
+  update-failed: 'Update check failed: {error}'
+  metrics-failed: 'Could not start bStats: {error}'
+  player-task-failed: Could not schedule player entity task.
+  global-task-failed: Could not schedule global task.
+listing:
+  bulk-sell-native: Bulk sell (GMP inventory menu)
+  bulk-buy-native: Bulk purchase (GMP inventory menu)
+  sell-title: List items for sale
+  purchase-title: Create purchase order
+  auction-title: Start auction
+  rules: '
+
+    GMP controls container scanning, taxes and listing limits.'
+  start-price: Starting bid
+  price-label: Lot price / price per item (depending on mode)
+  amount: Listing quantity
+  mode: Trading mode
+  wholesale: Wholesale (price for the whole lot)
+  retail: Retail (price per item)
+  confirm-title: Confirm listing
+  bulk-buy: Bulk purchase
+  bulk-sell: Bulk sell
+  bulk-price-label: Enter the listing price; choose equal or average pricing in the GMP menu next
+  bulk-open-title: Open GMP bulk listing menu
+  bulk-confirm: 'The next step opens GMP''s inventory menu.
+
+    Place items in the menu, then choose equal or average pricing.
+
+    GMP handles taxes, item removal and failure returns.'
+options:
+  hide-items: Hide merchandise
+  hide-name: Hide merchant name
+  store-closed: Store closed
+  mailbox-locked: Mailbox locked
+  never-expire: Never expire
+  unlimited: Unlimited merchandise
+stores:
+  title: All stores
+  help: Select a store to open it
+  owner-only: Visible to owner only
+  browse: Browse store merchandise
+  edit-profile: Edit merchant profile
+time:
+  days: 'd '
+  hours: 'h '
+  minutes: m
+market:
+  selling: Sale
+  purchasing: Purchase order
+  bidding: Auction
+  sort: Sorting
+  search: Search / filter
+  search-clear: Clear search filters
+  advanced: Advanced merchandise settings
+  similar: Find similar merchandise
+  retail-amount: Retail quantity
+  retail-amount-label: Enter a positive integer quantity
+  confirm-title: Confirm transaction
+  tax-note: '
+
+    Taxes and final settlement follow GMP settings and chat results.'
+  set-wholesale: Set lot price / -1 disables wholesale
+  set-retail: Set unit price / -1 disables retail
+  remove-title: Confirm listing removal
+  remove-help: GMP handles listing removal, item returns and tax refunds.
+  retail-price-title: Set retail price per item
+  wholesale-price-title: Set wholesale lot price
+  price-label: Enter a price; -1 disables this trading mode
+search:
+  help: 'Select a filter to edit it; leave blank for any value. Then choose Start search.'
+  start: 'Start search'
+  title: Search merchandise
+  material: Material ID (optional)
+  seller: Seller name contains
+  name: Item name contains
+  lore: Item description contains
+  min: Minimum quoted price
+  max: Maximum quoted price
+  currency: Currency ID (optional)
+  category: Category ID (optional)
+  type: Merchandise type
+auction:
+  bid-title: Place a bid
+  enter-price: Enter amount
+  price-label: Enter your bid amount
+  confirm-bid: Confirm bid
+  early-confirm: Settle auction early
+  early-title: Confirm auction settlement
+  early-help: GMP will settle using its current highest bid and settlement rules.
+messages:
+  player-only: Only players can use this command.
+  permission-fallback: You do not have permission.
+  prefix: '&bGlobal&6Market &f» '
+  no-permission: '{prefix}&cYou do not have permission.'
+  bedrock-only: '{prefix}&cThis feature is for Bedrock players only.'
+  action-sent: '{prefix}&aOperation submitted. Check GMP''s chat result.'
+  invalid-number: '{prefix}&cEnter a valid number.'
+  listing-sent: '{prefix}&aListing submitted. Check GMP''s chat result.'
+  listing-no-item: '{prefix}&cHold an item to create a listing.'
+  listing-item-changed: '{prefix}&cYour held item or hotbar slot changed. Please start again.'
+  data-error: '{prefix}&cCould not read market data. Please retry later; administrators can check the server log.'
+  form-failed: '{prefix}&cCould not send the form. Please open it again.'
+  update-available: '{prefix}&eUpdate {latest} is available (installed: {current}): {url}'
+  update-checking: '{prefix}&aChecking GitHub Releases. Please wait.'
+  update-no-new: '{prefix}&aNo newer stable release found; the repository may not have a release yet.'
+  update-failed: '{prefix}&cUpdate check failed. Please retry later.'
+  update-disabled: '{prefix}&cUpdate checking is disabled in the configuration.'
+  update-wait: '{prefix}&ePlease wait before checking again.'
+  reload-success: '{prefix}&aConfiguration and language files reloaded.'
+  reload-failed: '{prefix}&cReload failed. See the console for details.'
+  admin-help: '{prefix}&eUsage: /gmpbe [reload|update]'
+form:
+  common:
+    confirm: Confirm
+    cancel: Cancel
+    back: Back
+    refresh: Refresh
+    processing: Operation submitted
+    processing-content: Check GMP's chat result. Refresh to see the latest data.
+  main:
+    button-all-items: All products
+    title: Global Market
+    content: 'Balance: {balance}
+
+      My listings: {merchandises}
+
+      Mailbox: {mails}
+
+
+      Choose an action'
+    button-market: Market (sales)
+    button-purchase: Purchase orders
+    button-auction: Auctions
+    button-my-merchandises: My listings
+    button-my-mailbox: My mailbox
+    button-my-store: My store
+    button-list-item: Create listing
+  list:
+    market-title: Market (sales)
+    purchase-title: Purchase orders
+    auction-title: Auctions
+    my-title: My listings
+    mailbox-title: Mailbox
+    button-item: '{name} | {price}'
+    button-auction: '{name} | {bidding_price}'
+    button-my-item: '{name} | {price}'
+    button-mail: '{name} x{amount}'
+    empty: No entries to display
+    button-prev: Previous page
+    button-next: Next page
+    button-back: Back
+  detail:
+    title: Merchandise details
+    content: 'Item: {name}
+
+      Type: {type}
+
+      Seller: {seller}
+
+      Lot price: {price}
+
+      Retail price: {retail_price}
+
+      Quantity: {amount}
+
+      Time remaining: {expire}'
+    content-auction: 'Item: {name}
+
+      Type: {type}
+
+      Seller: {seller}
+
+      Starting bid: {price}
+
+      Current bid: {bidding_price}
+
+      Top bidder: {top_bidder}
+
+      Quantity: {amount}
+
+      Time remaining: {expire}'
+    button-buy-wholesale: Buy whole lot
+    button-buy-retail: Buy retail
+    button-sell-wholesale: Sell whole lot
+    button-sell-retail: Sell retail
+    button-bid: Place bid
+    button-remove: Remove listing
+    button-reprice: Change price
+    button-reprice-retail: Change retail price
+    button-back: Back
+  reprice:
+    title: Change price
+    content: Enter a price; -1 disables wholesale
+    retail-title: Change retail price
+    retail-content: Enter a price; -1 disables retail
+  mail-detail:
+    title: Mail details
+    content: 'Item: {name} x{amount}
+
+      Source: {source}
+
+      Sender: {sender}
+
+      Time remaining: {expire}'
+    button-pickup: Collect mail
+    button-back: Back
+  store:
+    title: My store
+    content: 'Store: {store_name}
+
+      Description:
+
+      {store_description}
+
+      Balance: {balance}
+
+      Listings: {merchandises}
+
+      Total sold: {sold}
+
+      Total purchased: {purchased}
+
+      Total auctions: {auction}'
+    button-back: Back
+  listing:
+    title: Create listing
+    content: Choose a listing type
+    button-sell: Sell
+    button-purchase: Purchase
+    button-auction: Auction
+    button-back: Back
+    price-sell-title: List items for sale
+    price-sell-content: Enter the wholesale lot price
+    price-purchase-title: Create purchase order
+    price-purchase-content: Enter the purchase price
+    price-auction-title: Start auction
+    price-auction-content: Enter the starting bid
+  input:
+    buy-title: Buy retail
+    buy-content: Enter a positive integer quantity
+    sell-title: Sell retail
+    sell-content: Enter a positive integer quantity
+    bid-title: Place a bid
+    bid-content: Enter your bid
+countdown:
+  bossbar: '&e&lHold the item you want to list'
+  actionbar: '&6Listing in &e{second}&6 seconds - hold the correct item'
+
+navigation:
+  action: 'Action (select, then press Submit)'
+  submit: 'Submit / Save'

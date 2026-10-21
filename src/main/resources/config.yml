@@ -1,0 +1,106 @@
+```yaml
+# GlobalMarketPlusBedrock
+# 文案在 lang/<language>.yml 中修改 / Edit text in lang/<language>.yml.
+language: zh_CN
+# 检查 GitHub Release 更新，仅提醒并提供下载链接。
+# Check for updates on GitHub Releases; only notify players and provide download links.
+check-for-updates: true
+
+
+# GlobalMarketPlus 配置文件 / GlobalMarketPlusBedrock configuration file
+# GlobalMarketPlus 的基岩版市场表单附属插件
+# An add-on plugin that provides Bedrock Edition market forms for GlobalMarketPlus.
+
+# 是否在玩家加入服务器后，自动为基岩版玩家弹出市场表单
+# Whether to automatically open the market form for Bedrock Edition players when they join the server.
+auto-open-on-join: false
+
+# 加入服务器后延迟弹出表单的时间（单位：秒）
+# Delay before opening the form after a player joins the server (in seconds).
+auto-open-delay: 1
+
+# 每个列表表单每页最多显示的条目数（基岩版表单按钮数量不宜过多）
+# Maximum number of entries per page in list forms (avoid displaying too many buttons in Bedrock forms).
+page-size: 20
+
+# 展示数据缓存（毫秒，0 关闭，上限 5000）。交易始终按 UID 重新读取并由 GMP 校验。
+# Display data cache duration (milliseconds; 0 to disable, maximum 5000). Transactions always reload data by UID and are validated by GMP.
+display-cache-millis: 1000
+
+# 将支持的 GMP 菜单命令转换为基岩表单，写操作命令仍由 GMP 处理。
+# Convert supported GMP menu commands into Bedrock forms. Write-operation commands are still handled by GMP.
+bridge-gmp-commands: true
+
+# 潜影盒/收纳袋嵌套预览最大层数（1–8）
+# Maximum nesting depth for shulker box and bundle previews (1–8).
+container-preview-depth: 4
+
+# 商品列表按钮图片（出售/收购/拍卖/我的商品/邮箱）。与 UltimateShop 使用相同的表单图片能力。
+# Product list button images (selling/buying/auctions/my listings/mailbox). Uses the same form image capabilities as UltimateShop.
+# url;; 后为客户端可访问的图片 URL；path;; 后为基岩客户端资源包内路径，不是服务器文件路径。
+# After url;;, specify an image URL accessible to the client. After path;;, specify a path inside the Bedrock client resource pack, not a server file path.
+# 未找到映射、配置无效或设为 none 时保留文字按钮。URL 加载失败时客户端可能显示空图标。
+# Text buttons are retained if no mapping is found, the configuration is invalid, or the value is set to none. If a URL fails to load, the client may display an empty icon.
+item-icons:
+  enabled: true
+  auto:
+    enabled: true
+    # 内置纹理映射来源版本；仅修改版本号不会重新生成纹理映射。
+    # Minecraft version used as the source for built-in texture mappings. Changing this version alone will not regenerate the texture mappings.
+    version: '26.3'
+    # 使用内置地址的旧 1.20.4 / 1.21.11 配置自动采用新版本；自定义 CDN/版本不受影响。
+    # Upgrade older built-in versions; custom CDN/version settings are preserved.
+    upgrade-legacy-default: true
+    # 可替换为玩家可访问的 CDN，{path} 已含 item/ 或 block/，不含 .png。
+    # Can be replaced with a CDN accessible to players. {path} already includes item/ or block/ and does not include .png.
+    url-format: 'https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/{version}/assets/minecraft/textures/{path}.png'
+  fallback: ''
+
+# 手工配置优先于自动图标；空字符串或 none 可关闭某种物品的图片。
+# Manual mappings take priority over automatic icons. Use an empty string or none to disable the image for a particular item.
+# Material 名称覆盖基础物品；custom-model-data 按 Material 与整数 CMD 分别指定缩略图。
+# Material overrides apply to all items of that material; CMD supports integer model-specific thumbnails.
+  materials: {}
+  # 示例（取消注释，并替换为你自己的 URL 或基岩资源包路径）：
+  # Example (uncomment and replace with your own URL or Bedrock resource pack path):
+  # materials:
+  #   DIAMOND: 'path;;textures/items/diamond'
+  # custom-model-data:
+  #   PAPER:
+  #     '1001': 'url;;https://your-cdn.example/icons/custom-item.png'
+  custom-model-data: {}
+
+# 功能按钮与商品按钮样式 / Functional and product button appearance.
+# 功能图片默认使用基岩原版资源路径，无需联网；商品图片独立由 item-icons 控制。
+# Function icons use built-in Bedrock resource paths and do not require an internet connection; product images are controlled separately by item-icons.
+# Function icons use built-in Bedrock paths; item-icons separately controls merchandise images.
+button-style:
+  images: true
+  symbols: true
+  function-bold: true
+  function-color: '&8'
+  # 商品强制不加粗，只接受颜色代码 / Products never bold; color codes only.
+  product-color: '&2'
+  # 可覆盖某类功能图标及符号。完整 role 名称见 README。
+  # Override images and symbols for specific function roles. See the README for the complete list of role names.
+  # Override images/symbols by role; see README for all role names.
+  functions: {}
+  # functions:
+  #   search:
+  #     image: 'path;;textures/items/compass_item'
+  #     symbol: '?'
+  #   back:
+  #     image: 'path;;textures/items/arrow'
+  #     symbol: '←'
+
+# 上架倒计时（玩家点击上架后，需要一段时间手持要上架的物品）
+# Listing countdown (after clicking the listing button, players must hold the item they want to list for a period of time).
+countdown:
+  # 倒计时秒数 / Countdown duration in seconds.
+  seconds: 10
+
+
+# bStats
+bstats:
+  enabled: true
+```

@@ -252,3 +252,12 @@ Function button images use vanilla Bedrock resource paths configured through `bu
 | The addon says only Bedrock players can use it, or no form appears | Check whether Floodgate identifies the player on the backend, whether proxy keys/configuration are correct, and whether the addon permissions are configured properly |
 | The listing is empty | Check the selected category, search filters, hidden flags, currency permissions, and whether the shop is closed |
 | An operation does not complete after submission | Check GMP chat feedback for permission, balance, tax, inventory, or cooldown restrictions, then refresh the list |
+
+## Sponsorship and Support
+
+If this project helps you, you can support development through Ko-fi or Afdian. Sponsors can request plugin installation, configuration, and troubleshooting.
+
+<p align="center">
+  <a href='https://ko-fi.com/J5C529ZWWL' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+  <a href='https://afdian.com/a/sss000' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://img.shields.io/badge/Afdian-Support-946CE6?style=for-the-badge&logo=afdian&logoColor=white' border='0' alt='Support on Afdian' /></a>
+</p>

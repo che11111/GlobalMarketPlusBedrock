@@ -24,7 +24,7 @@ GlobalMarketPlusBedrock is a Bukkit addon for [GlobalMarketPlus](https://www.spi
 
 Permissions, inventory operations, payments, taxes, and item delivery are still handled by GMP. This README also serves as the installation, configuration, and administration guide.
 
-## Demo111
+## Demo
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/che11111/GlobalMarketPlusBedrock/main/img/202610294010951.gif" alt="GlobalMarketPlusBedrock demo" width="800">
@@ -88,6 +88,15 @@ The permissions provided by this addon do **not** grant GMP permissions. Menu ac
 | SearchGUI | Filter by material, seller, item name/description, price range, currency, category, and item type; find similar listings |
 | SellInventoryGUI | Enter a price in a form, then use **GMP's native chest GUI** to complete equivalent-price or average-price bulk selling |
 | BuyInventoryGUI | Enter a price in a form, then use **GMP's native chest GUI** to complete equivalent-price or average-price bulk buying |
+
+## Sponsorship and Support
+
+If this project helps you, you can support development through Ko-fi or Afdian. Sponsors can request plugin installation, configuration, and troubleshooting.
+
+<p align="center">
+  <a href='https://ko-fi.com/J5C529ZWWL' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+  <a href='https://afdian.com/a/sss000' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://img.shields.io/badge/Afdian-Support-946CE6?style=for-the-badge&logo=afdian&logoColor=white' border='0' alt='Support on Afdian' /></a>
+</p>
 
 
 

@@ -213,3 +213,12 @@ python3 tools/generate_item_textures.py /path/to/client.jar 26.3
 | 提示仅限基岩版或没有表单 | 后端 Floodgate 是否识别玩家；代理密钥/配置及附属权限是否正确 |
 | 列表为空 | 当前分类、搜索条件、隐藏标志、货币权限、商店是否打烊 |
 | 提交后没有完成操作 | 查看 GMP 聊天反馈中的权限、余额、税费、库存、冷却限制，再刷新 |
+
+## 赞助与支持
+
+如果本项目对你有帮助，可以通过 Ko-fi 或 爱发电 赞助开发。赞助后可提供插件安装、配置和故障排查问答服务。
+
+<p align="center">
+  <a href='https://ko-fi.com/J5C529ZWWL' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+  <a href='https://afdian.com/a/sss000' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://img.shields.io/badge/Afdian-Support-946CE6?style=for-the-badge&logo=afdian&logoColor=white' border='0' alt='在爱发电赞助' /></a>
+</p>
